@@ -1,0 +1,32 @@
+# Langchain相关依赖
+langchain==0.3.26
+langchain-openai==0.3.23
+langchain-mongodb==0.6.2
+langchain-core==0.3.68
+langchain-community==0.3.19
+
+# MongoDB相关依赖
+pymongo==4.13.2
+motor==3.7.1
+
+# OpenAI相关依赖
+openai==1.88.0
+
+# FastAPI相关依赖
+fastapi==0.115.11
+uvicorn==0.29.0
+pydantic==2.10.6
+
+# 工具依赖
+python-dotenv==1.0.1
+requests==2.32.3
+
+# 数据处理依赖
+numpy==1.26.4
+pandas==2.2.3
+
+# RAGFlow相关依赖
+ragflow-sdk==0.19.0
+
+# 其他可能需要的依赖
+typing-extensions==4.12.2
