@@ -18,7 +18,7 @@ import time
 from typing import Dict, Any, List, Optional
 from dotenv import load_dotenv
 from openai import OpenAI
-from langchain_core.runnables import RunnablePassthrough
+from langchain_core.runnables import RunnablePassthrough, Runnable
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 

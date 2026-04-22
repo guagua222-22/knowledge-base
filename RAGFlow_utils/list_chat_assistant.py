@@ -1,10 +1,11 @@
 import os
 
-import logger
 from ragflow_sdk import RAGFlow
 from dotenv import load_dotenv
 
 import logging
+
+logger = logging.getLogger(__name__)
 
 
 def get_assistant_list():
